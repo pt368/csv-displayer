@@ -1,0 +1,33 @@
+@import 'jquery-ui/themes/base/all.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import "dataTables.net-dt";
+
+body {
+    background: #eee;
+}
+.container{
+    background: #f8f8f9;
+}
+.datatable-container{
+    padding: 1em;
+}
+.dataTables_wrapper{
+    padding: 1em;
+    overflow-x: scroll;
+}
+
+.form .form-content {
+    padding: 30px 35px
+}
+
+.form-content{
+    padding: 1em;
+}
+
+.form-content input{
+    width: 100%;
+}
+
+.form-wrapper{
+    padding: 1em;
+}
