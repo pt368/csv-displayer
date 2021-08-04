@@ -22,7 +22,7 @@ Install the dependencies
 ```sh
 composer install
 ```
-Run migrate table csv to track which csv was upload, and support future features
+Create .env file from .env.example, fill out database connection and run migrate table csv to track which csv was upload, and support future features
 ```sh
 php artisan migrate
 ```
